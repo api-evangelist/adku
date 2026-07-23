@@ -1,7 +1,31 @@
 aid: adku
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adku.png
 name: Adku
-description: Adku is a company surfaced as a portfolio company of battery-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Adku was a big-data e-commerce personalization startup founded around 2010 by former
+  Googlers (CEO Ajit Varma with co-founders Carlos Whitt and Jesse Shieh), and an AngelPad alumnus.
+  It built machine-learning technology to personalize the online shopping experience for visitors to
+  e-commerce sites such as eBay, Amazon, and Zappos. Backed by Battery Ventures, Greylock Partners,
+  and True Ventures (roughly $1.49M raised), Adku was acquired by Groupon in February 2012 and is no
+  longer an operating, independent company. It has no public developer portal, API, or documentation
+  surface; this record is retained in the API Evangelist network as a Battery Ventures portfolio lead
+  for historical/enrichment tracking only.
+x-status: acquired
+x-acquired-by: groupon
+x-acquired-date: '2012-02-06'
+x-enrichment-note: Defunct/acquired company (Groupon, 2012). Domain adku.com does not resolve; no live
+  website, API, OpenAPI, docs, or well-known surface exists. No provider artifacts could be produced
+  without fabrication. Identity enriched from public records only.
 url: https://raw.githubusercontent.com/api-evangelist/adku/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +38,21 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- E-Commerce
+- Personalization
+- Machine Learning
+- Big Data
+- Advertising
+- Acquired
+- Battery Ventures Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

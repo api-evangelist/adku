@@ -51,7 +51,7 @@ tags:
 - Company
 - E-Commerce
 - Personalization
-- Machine-Learning
+- Machine Learning
 - Big Data
 - Advertising
 - Acquired
@@ -65,6 +65,7 @@ tags_raw:
 - Advertising
 - Acquired
 - Battery Ventures Portfolio
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane

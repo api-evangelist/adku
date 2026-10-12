@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/adku/integrations
+- https://n8n.io/integrations/adku/
+- https://composio.dev/toolkits/adku
+- https://monid.ai/tools/adku
+checked:
+- https://composio.dev/toolkits/adku
+- https://monid.ai/tools/adku
+- https://n8n.io/integrations/adku/
+- https://zapier.com/apps/adku/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
